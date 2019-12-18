@@ -1,0 +1,8 @@
+#goal
+patrol_controller/PatrolLoop loop
+---
+#result
+bool result
+---
+#feedback
+bool feedback

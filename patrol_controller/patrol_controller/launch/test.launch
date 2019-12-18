@@ -1,0 +1,11 @@
+<launch>
+
+<node 
+name = "fake_node"
+type = "fakee"
+pkg = "patrol_controller"
+output = "screen"
+/>
+
+
+</launch>

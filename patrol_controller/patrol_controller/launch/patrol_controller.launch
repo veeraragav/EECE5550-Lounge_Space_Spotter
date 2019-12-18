@@ -1,0 +1,12 @@
+<launch>
+<node 
+name = "patrol_controller_node"
+type = "patrol_controller_node"
+pkg = "patrol_controller"
+
+output = "screen"
+/>
+
+ 
+
+</launch>
