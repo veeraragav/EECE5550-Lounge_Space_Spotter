@@ -1,0 +1,12 @@
+
+<launch>
+ <rosparam file="$(find summa)/param/costmap_common_params.yaml" command="load" ns="global_costmap" />
+    <rosparam file="$(find summa)/param/costmap_common_params.yaml" command="load" ns="local_costmap" />   
+    <rosparam file="$(find summa)/param/local_costmap_params.yaml" command="load" />   
+    <rosparam file="$(find summa)/param/global_costmap_params.yaml" command="load" />
+    <rosparam file="$(find summa)/param/dwa_local_planner_params.yaml" command="load" />
+    <rosparam file="$(find summa)/param/move_base_params.yaml" command="load" />
+    <rosparam file="$(find summa)/param/global_planner_params.yaml" command="load" />
+    <rosparam file="$(find summa)/param/navfn_global_planner_params.yaml" command="load" />
+
+</launch>
